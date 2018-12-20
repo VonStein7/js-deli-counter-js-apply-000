@@ -1,7 +1,13 @@
 const takeANumber = (arr, string) => {
   arr.push(string) 
   
-  return 'Welcome, '+string +`. You are number ${arr.length} in line.` 
+  return 'Welcome, '+string +`. You are number ${arr.length} in line.`
+}
+
+let ticketNum = 0;
+const takeANumber2 = (arr, string) => {
+  
+  return `You are number ${ticketNum++}`;
 }
 
 const nowServing = (arr) => {
